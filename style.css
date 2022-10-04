@@ -42,11 +42,14 @@ header h1 {
   height: 48px;
 }
 .side-bar{
+  position: absolute;
+  z-index: 5;
+  left: 0;
   width: 0;
   height: calc(100vh - 60px);
   background-color: #fff;
   overflow: hidden;
-  transition: width 300ms ease-out;
+  transition: width 250ms ease-out;
 }
 .side-bar.active{
   width: 240px;
